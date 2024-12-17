@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دار المعجنات</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Logo Image -->
+    <link rel="icon" href="assets/images/pastry-logo.jpg">
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/pastry-logo.jpg" alt="شعار دار المعجنات" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">المنتجات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">اتصل بنا</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Top-Banner Section -->
+    <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <h1>معجنات شهية<br>من مطبخنا إلى مائدتكم</h1>
+                        <p class="drop-in-2">في دار المعجنات، نؤمن بأن الطعم الرائع لا يجب أن يكون مكلفًا. لذلك نقدم معجنات مصنوعة بحب، من مكونات طازجة، وبإبداع - وبأسعار تناسب ميزانيتك.</p>
+                        <div class="mt-4">
+                            <button class="main-btn"><a style="color:white" href="menu.html" alt="">اطلب الآن </a><img src="assets/images/next.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Food Slider Section -->
+    <section id="food-slider">
+        <div class="wrapper food-slider-section">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="text-content text-center">
+                                    <h1>
+                                        <span class="banner-message active">مرحبًا بكم في دار المعجنات، حيث يلتقي المذاق بالمتعة!</span>
+                                        <span class="banner-message">تذوقوا الفرق مع معجناتنا المصنوعة يدويًا.</span>
+                                        <span class="banner-message">مكونات طازجة، ونكهات لا تُنسى في كل مرة!</span>
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Carousel -->
+                        <div id="foodCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+                            <!-- Image navigation indicators-->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="5"
+                                    aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="6"
+                                    aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="7"
+                                    aria-label="Slide 8"></button>
+                            </div>
+    
+                            <!--  Image  -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/images/manakish-zaatar.jpg" class="d-block w-100" alt="مناقيش زعتر">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/fatayer-spinach.jpeg" class="d-block w-100" alt="فطاير سبانخ">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/samboosek.jpeg" class="d-block w-100" alt="سمبوسك">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/sfeeha.jpeg" class="d-block w-100" alt="صفيحة">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/manakish-cheese.jpg" class="d-block w-100" alt="مناقيش جبنة">
+                                <div class="carousel-item">
+                                    <img src="assets/images/manakish-meat.jpg" class="d-block w-100" alt="مناقيش لحمة">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/knafeh.jpeg" class="d-block w-100" alt=" كنافة نابلسية  ">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/images/mini-fatayer.jpg" class="d-block w-100" alt="فطاير صغيرة">
+                                </div>
+                                
+                            </div>
+    
+                            <!-- Move buttons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#foodCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">السابق</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#foodCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">التالي</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="work">
+        <section class="work-section">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>كيف <span>يعمل</span> الطلب</h2>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <img src="assets/images/manakish-zaatar.jpg" alt="">
+                        <p class="drop-in-2">اختر معجناتك المفضلة</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <img src="assets/images/delivery.jpg" alt="">
+                        <p class="drop-in-2">توصيل مجاني وسريع</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <img src="assets/images/payment.jpg" alt="">
+                        <p class="drop-in-2">طريقة دفع سهلة</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <img src="assets/images/enjoy-food.png" alt="">
+                        <p class="drop-in-2">واستمتع بالمعجنات أخيرًا</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter">
+        <div class="newsletter wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center pb-4">
+                            <h2>أسرع! <span>اشترك</span> في النشرة البريدية واحصل على خصم 10 %</h2>
+                            <p class="drop-in-2">عرض محدود لهذا الشهر.. </p>
+                        </div>
+                        <form action="#" class="newsletter">
+                            <div class="row">
+                                <div class="col-md-8 col-12">
+                                    <input type="email" class="form-control" placeholder="أدخل بريدك الإلكتروني هنا"
+                                        name="email">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <button class="main-btn" type="submit">اشتراك</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section  -->
+    <section id="footer">
+        <div class="footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-social pt-4 text-center">
+                        <p class="text-light">وسائل التواصل الاجتماعي</p>
+                        <a href="#"><img src="assets/images/facebook.png" alt=""></a>
+                         <a href="#"><img src="assets/images/youtube.png" alt=""></a>
+                     </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="footer-copy">
+                        <div class="copy-right text-center pt-5">
+                            <p class="text-light">هاتف: 00962795431279 <br> البريد الإلكتروني: dar.almaajenat@gmail.com</p>
+                            <p class="text-light">شارع الملك عبدالله الثاني - عمان، الأردن</p><br><hr>
+                            <p class="text-light">&copy; حقوق النشر 2024 | تطوير أدي الحمزة - تدريب تحالف الإمارات للتطوير | جميع الحقوق محفوظة.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Javascript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
